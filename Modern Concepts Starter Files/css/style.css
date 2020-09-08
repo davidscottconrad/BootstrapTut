@@ -60,13 +60,35 @@ h1 {
 
 }
 
+
+.nav-link{
+  color: white!important;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: .08rem;
+  font-size: 1.2rem;
+  margin-right: .8rem;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  border-bottom: .05rem solid white;
+}
 /*=== CONTENT STYLE ===*/
 
 
 
 /*=== FIXED BACKGROUND IMG ===*/
 
+.fixed-background{
+  padding: 12rem 0;
+}
 
+.fixed {
+  background-image: url('../img/macbook.jpg');
+  position: fixed;
+  
+}
 
 /*=== FOOTER ===*/
 
